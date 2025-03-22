@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore"; // Firestore para banco de da
 import { getAuth } from "firebase/auth"; // Autenticação
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB972CnHadp5QNMsRuCrubju_ek2AiCMwk",
-  authDomain: "projeto-react-fullstack.firebaseapp.com",
-  projectId: "projeto-react-fullstack",
-  storageBucket: "projeto-react-fullstack.firebasestorage.app",
-  messagingSenderId: "676965951233",
-  appId: "1:676965951233:web:b96f452124f552a1729d00",
-  measurementId: "G-5VHHGYMKD0",
+  apiKey: import.meta.env.VITE_APP_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_APP_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_APP_FIREBASE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
