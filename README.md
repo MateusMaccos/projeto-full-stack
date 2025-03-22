@@ -102,13 +102,3 @@ O sistema verifica mensagens agendadas e as envia automaticamente no momento cor
 - ✅ Histórico de mensagens
 - ✅ Suporte a envio de mídias
 
----
-
-## 📄 Licença
-
-Este projeto é open-source e está sob a licença MIT.
-
----
-
-💡 **Desenvolvido por **[**Seu Nome**](https://github.com/seu-usuario/) 🚀
-
